@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script defer src="js/vendor/all.min.js"></script>
+    <script defer src="js/vendor/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hiroto || Home</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.png" alt="website logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="room.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Room Details</a></li>
+                  <li>
+                    <a class="dropdown-item" href="blog-details.html"
+                      >Blog Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-secondary" href="#"
+                  >Book Now <span>&rarr;</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main page -->
+    <!-- start hero section -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="hero__text text-center">
+                <h1>WELCOME HIROTO</h1>
+                <h2>Experience the greatest for you holidays.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-11 col-sm-10">
+              <form class="booking-form">
+                <div class="row g-0 justify-content-center align-items-center">
+                  <div class="col-lg-10">
+                    <div class="booking-form__box">
+                      <div class="row">
+                        <div class="col-lg-3 col-md-12">
+                          <div class="booking__form--item">
+                            <label for="searchLocation" class="form-label"
+                              >Location</label
+                            >
+                            <div class="booking-form__search">
+                              <input
+                                type="search"
+                                class="form-control"
+                                id="searchLocation"
+                                placeholder="Search"
+                              />
+                              <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                          <div class="booking__form--item">
+                            <label for="checkInDate" class="form-label"
+                              >Check In</label
+                            >
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="checkInDate"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                          <div class="booking__form--item">
+                            <label for="checkOutDate" class="form-label"
+                              >Check Out</label
+                            >
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="checkOutDate"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                          <div class="booking__form--item">
+                            <label for="personNo" class="form-label"
+                              >Person</label
+                            >
+                            <select id="inputState" class="form-select">
+                              <option selected>2 Adults,1 Children</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-4-md">
+                    <button class="btn btn-form">Book Now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero section -->
+      <!-- ** start of about us section -->
+      <section class="about-us">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-12-md">
+              <div class="about-us__text">
+                <div class="section__title">
+                  <h5 class="subHeading">about us</h5>
+                  <h2 class="secondary-heading">
+                    Welcome Hiroto Hotel In Street L’Abreuvoir
+                  </h2>
+                </div>
+                <p class="about-us__text__1">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos qui
+                  ratione voluptatem sequi nesciunt.
+                </p>
+                <p class="about-us__text__2">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque.
+                </p>
+                <div class="about-us__signature-img">
+                  <img src="/images/sign.png" alt="signature" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12-md text-center">
+              <div class="about-us__img-box">
+                <img src="/images/home-about.png" alt="about us photo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ** end of about us section -->
+
+      <!-- ** services section -->
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="services__item">
+                <div class="services__img">
+                  <img src="/images/services-1.png" alt="wifi" />
+                </div>
+                <h4>Free Wifi</h4>
+                <p>
+                  The massive investment in a hotel or resort requires constant
+                  reviews and control in order to make it a successful
+                  investment.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="services__item">
+                <div class="services__img">
+                  <img src="/images/services-2.png" alt="wifi" />
+                </div>
+                <h4>Free Wifi</h4>
+                <p>
+                  The massive investment in a hotel or resort requires constant
+                  reviews and control in order to make it a successful
+                  investment.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="services__item">
+                <div class="services__img">
+                  <img src="/images/services-3.png" alt="wifi" />
+                </div>
+                <h4>Free Wifi</h4>
+                <p>
+                  The massive investment in a hotel or resort requires constant
+                  reviews and control in order to make it a successful
+                  investment.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="services__item">
+                <div class="services__img">
+                  <img src="/images/services-4.png" alt="wifi" />
+                </div>
+                <h4>Free Wifi</h4>
+                <p>
+                  The massive investment in a hotel or resort requires constant
+                  reviews and control in order to make it a successful
+                  investment.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="services__item">
+                <div class="services__img">
+                  <img src="/images/services-5.png" alt="wifi" />
+                </div>
+                <h4>Free Wifi</h4>
+                <p>
+                  The massive investment in a hotel or resort requires constant
+                  reviews and control in order to make it a successful
+                  investment.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="services__item">
+                <div class="services__img">
+                  <img src="/images/services-6.png" alt="wifi" />
+                </div>
+                <h4>Free Wifi</h4>
+                <p>
+                  The massive investment in a hotel or resort requires constant
+                  reviews and control in order to make it a successful
+                  investment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ** end services section -->
+      <!-- **start our room section -->
+      <section class="home-room">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section__title">
+                <h5 class="subHeading">OUR ROOM</h5>
+                <h2 class="secondary-heading">Explore Our Hotel</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="home-room__items--box">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div
+                  class="home-room__item bg--style"
+                  style="background: url('/images/hr-1.jpg')"
+                >
+                  <div class="home-room__specs">
+                    <h4>Deluxe Room</h4>
+                    <h2><sup>$</sup>55<span>/day</span></h2>
+                  </div>
+                  <a href="#">Booking Now</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div
+                  class="home-room__item bg--style"
+                  style="background: url('/images/hr-2.jpg')"
+                >
+                  <div class="home-room__specs">
+                    <h4>Deluxe Room</h4>
+                    <h2><sup>$</sup>55<span>/day</span></h2>
+                  </div>
+                  <a href="#">Booking Now</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div
+                  class="home-room__item bg--style"
+                  style="background: url('/images/hr-3.jpg')"
+                >
+                  <div class="home-room__specs">
+                    <h4>Deluxe Room</h4>
+                    <h2><sup>$</sup>55<span>/day</span></h2>
+                  </div>
+                  <a href="#">Booking Now</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 p-0">
+                <div
+                  class="home-room__item bg--style"
+                  style="background: url('/images/hr-4.jpg')"
+                >
+                  <div class="home-room__specs">
+                    <h4>Deluxe Room</h4>
+                    <h2><sup>$</sup>55<span>/day</span></h2>
+                  </div>
+                  <a href="#">Booking Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="home__explore">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-9 col-md-8 text-center">
+                <h3>Planning your next trip? Save up to 25% on your hotel</h3>
+              </div>
+              <div class="col-lg-3 col-md-4 text-center">
+                <a href="" class="btn btn-primary">Explore More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- **end our room section -->
+
+      <!-- **start testmonial section -->
+      <section class="testmonial">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-12">
+              <div class="testmonial__img-box">
+                <img
+                  src="/images/testimonial-left.jpg"
+                  alt="testmonial image"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="testmonial__content">
+                <div class="section__title">
+                  <h5 class="subHeading">TESTIMONIALS</h5>
+                  <h2 class="secondary-heading">
+                    What do customers say about us?
+                  </h2>
+                </div>
+                <div class="slider">
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="testmonial__slider--box">
+                          <div class="reviews">
+                            <div class="reviews__title">
+                              <h5>Detailed Review:</h5>
+                              <div class="reviews__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </div>
+                            </div>
+                            <p class="review__customer">
+                              Duis aute irure dolor in reprehenderit in
+                              voluptate velit esse cillum dolore eu fugiat nulla
+                              pariatur. Excepteur sint occaecat cupidat non
+                              proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum. Sed ut perspiciatis
+                              unde omnis iste natus error sit voluptatem
+                              accusantium doloremque laudantium.
+                            </p>
+                          </div>
+                          <div
+                            class="d-flex justify-content-between align-items-center"
+                          >
+                            <div class="testmonial__author">
+                              <h5>Ridchard Houston</h5>
+                              <p>Director Colorlib</p>
+                            </div>
+                            <div
+                              class="social__links d-flex justify-content-center gap--2"
+                            >
+                              <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-instagram"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-twitter"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-youtube"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="testmonial__slider--box">
+                          <div class="reviews">
+                            <div class="reviews__title">
+                              <h5>Detailed Review:</h5>
+                              <div class="reviews__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </div>
+                            </div>
+                            <p class="review__customer">
+                              Duis aute irure dolor in reprehenderit in
+                              voluptate velit esse cillum dolore eu fugiat nulla
+                              pariatur. Excepteur sint occaecat cupidat non
+                              proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum. Sed ut perspiciatis
+                              unde omnis iste natus error sit voluptatem
+                              accusantium doloremque laudantium.
+                            </p>
+                          </div>
+                          <div
+                            class="d-flex justify-content-between align-items-center"
+                          >
+                            <div class="testmonial__author">
+                              <h5>Ridchard Houston</h5>
+                              <p>Director Colorlib</p>
+                            </div>
+                            <div
+                              class="social__links d-flex justify-content-center gap--2"
+                            >
+                              <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-instagram"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-twitter"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-youtube"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="testmonial__slider--box">
+                          <div class="reviews">
+                            <div class="reviews__title">
+                              <h5>Detailed Review:</h5>
+                              <div class="reviews__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </div>
+                            </div>
+                            <p class="review__customer">
+                              Duis aute irure dolor in reprehenderit in
+                              voluptate velit esse cillum dolore eu fugiat nulla
+                              pariatur. Excepteur sint occaecat cupidat non
+                              proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum. Sed ut perspiciatis
+                              unde omnis iste natus error sit voluptatem
+                              accusantium doloremque laudantium.
+                            </p>
+                          </div>
+                          <div
+                            class="d-flex justify-content-between align-items-center"
+                          >
+                            <div class="testmonial__author">
+                              <h5>Ridchard Houston</h5>
+                              <p>Director Colorlib</p>
+                            </div>
+                            <div
+                              class="social__links d-flex justify-content-center gap--2"
+                            >
+                              <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-instagram"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-twitter"></i
+                              ></a>
+                              <a href="#">
+                                <i class="fa-brands fa-youtube"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end slider gap--2">
+                      <button
+                        class="slider__btn--perv slider__btn"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="prev"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="slider__btn--next slider__btn"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="next"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- **end testmonial section -->
+
+      <!-- ** choose us section -->
+      <section class="choose-us bg--style">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <div class="section__title">
+                <h5 class="subHeading">WHY CHOOSE US</h5>
+                <h2 class="secondary-heading">
+                  Contact us now to get the latest deals and for the next
+                  booking
+                </h2>
+              </div>
+              <a href="" class="btn btn-secondary">Booking now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ** end of choose us section -->
+
+      <!-- ** start of gallery section -->
+      <section class="gallery">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6-col-sm-12">
+              <div class="section__title">
+                <h5 class="subHeading">our gallery</h5>
+                <h2 class="secondary-heading">
+                  Explore The Most Beautiful In The Hotel
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6-col-sm-12">
+              <div class="gallery__content">
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Sunt in culpa qui
+                  officia deserunt mollit anim.
+                </p>
+                <a href="#" class="btn btn-primary">View Gallery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="gallery__item bg--style"
+                style="background: url('/images/gallery-1.jpg')"
+              ></div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="gallery__item bg--style"
+                style="background: url('/images/gallery-2.jpg')"
+              ></div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="gallery__item bg--style"
+                style="background: url('/images/gallery-3.jpg')"
+              ></div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="gallery__item bg--style"
+                style="background: url('/images/gallery-4.jpg')"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ** end of gallery section -->
+      <!-- ** home blogs section -->
+      <section class="home-blogs">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section__title">
+                <h5 class="subHeading">NEWS & EVENT</h5>
+                <h2 class="secondary-heading">From Our Blog</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-lg-6 col-md-12">
+              <div class="home-blogs__item">
+                <div class="row align-items-center g-0">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="home-blog__item-img normal--squar">
+                      <img src="/images/lb-1.jpg" alt="hotel 1" />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="home-blog__item-text">
+                      <span class="blog-item__label label--tag">Hotel</span>
+                      <h5>Ut enim ad minim veniam, quis nostrud</h5>
+                      <p class="blog-item__date">
+                        <span><i class="fa-regular fa-clock"></i></span>
+                        19th March, 2019
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="home-blogs__item">
+                <div class="row g-0 align-items-center">
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-2"
+                  >
+                    <div class="home-blog__item-img normal--squar">
+                      <img src="/images/lb-2.jpg" alt="hotel 1" />
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-1"
+                  >
+                    <div class="home-blog__item-text">
+                      <span class="blog-item__label label--tag">Hotel</span>
+                      <h5>Ut enim ad minim veniam, quis nostrud</h5>
+                      <p class="blog-item__date">
+                        <span><i class="fa-regular fa-clock"></i></span>
+                        19th March, 2019
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="home-blogs__item">
+                <div class="row align-items-center g-0">
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-1"
+                  >
+                    <div class="home-blog__item-img reverse--squar">
+                      <img src="/images/lb-3.jpg" alt="hotel 1" />
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-2"
+                  >
+                    <div class="home-blog__item-text">
+                      <span class="blog-item__label label--tag">Hotel</span>
+                      <h5>Ut enim ad minim veniam, quis nostrud</h5>
+                      <p class="blog-item__date">
+                        <span><i class="fa-regular fa-clock"></i></span>
+                        19th March, 2019
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="home-blogs__item">
+                <div class="row g-0 align-items-center">
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-2"
+                  >
+                    <div class="home-blog__item-img reverse--squar">
+                      <img src="/images/lb-4.jpg" alt="hotel 1" />
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1"
+                  >
+                    <div class="home-blog__item-text">
+                      <span class="blog-item__label label--tag">Hotel</span>
+                      <h5>Ut enim ad minim veniam, quis nostrud</h5>
+                      <p class="blog-item__date">
+                        <span><i class="fa-regular fa-clock"></i></span>
+                        19th March, 2019
+                      </p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ** end home blogs section -->
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logos">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-1.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-2.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-3.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-4.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__content">
+          <div class="row justify-content-md-between">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="footer__about">
+                <div class="footer__logo">
+                  <a href="index.html">
+                    <img src="/images/logo.png" alt="logo" />
+                  </a>
+                </div>
+                <h4 class="footer__title--white">(123) 456-78-91096</h4>
+                <p>Ernser Vista Suite 437, NY</p>
+                <p>Info.colorlib@gmail.com</p>
+                <div class="footer__social social__links d-flex gap--2">
+                  <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 offset-md-1 col-md-3 col-sm-6">
+              <div class="footer__links">
+                <div class="footer__link--title">
+                  <h4 class="footer__title--white">Quick Link</h4>
+                </div>
+                <div class="d-flex gap--3">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Room</a></li>
+                    <li><a href="#">Resturants</a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Events</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12">
+              <div class="footer__news-letter">
+                <h4 class="footer__title--white">Subscribe our newlatester</h4>
+                <form action="#">
+                  <input type="text" placeholder="Enter your mail" />
+                  <button class="btn btn-primary" type="submit">
+                    Subscribe
+                  </button>
+                </form>
+                <h5>Find Us:</h5>
+                <ul class="d-flex gap--2 footer__news__links">
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-sharp fa-solid fa-eye"></i
+                    ></a>
+                  </li>
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-regular fa-map"></i
+                    ></a>
+                  </li>
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-light fa-bullseye"></i
+                    ></a>
+                  </li>
+
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-brands fa-forumbee"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="row justify-content-sm-between">
+            <div class="col-lg-7 col-md-7">
+              <div class="footer__copyright__text">
+                <p>
+                  <span
+                    >Copyright © 2023 All rights reserved | This template is
+                    made with</span
+                  >
+                  <span class="copyright--heart"
+                    ><i class="fa-solid fa-heart"></i
+                  ></span>
+                  By
+                  <span
+                    ><a class="copyright__user" href="#"
+                      >Mohamed Elmahdy</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
+              <ul
+                class="footer__copyrights__links d-flex justify-content-lg-end justify-content-md-end justify-content-center"
+              >
+                <li><a href="#">Terms Of Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

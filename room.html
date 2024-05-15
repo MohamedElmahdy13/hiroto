@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer src="js/vendor/all.min.js"></script>
+    <script defer src="js/vendor/bootstrap.bundle.min.js"></script>
+    <title>Room pagee</title>
+  </head>
+  <body>
+    <!-- ** start header-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"
+            ><img src="/images/logo.png" alt="website logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/room.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about-us.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Room Details</a></li>
+                  <li>
+                    <a class="dropdown-item" href="blog-details.html"
+                      >Blog Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-secondary" href="#"
+                  >Book Now <span>&rarr;</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="breadcrumb-navs bg--style">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb__text text-center">
+                <h1>Our Room</h1>
+                <div class="breadcrumb__links">
+                  <a href="/index.html">Home</a>
+                  <div><i class="fa-regular fa-caret-right"></i></div>
+                  <p class="current__page">Rooms</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ** rooms section -->
+      <section class="rooms">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1">
+              <div class="rooms__content">
+                <h3>Premium King Room</h3>
+                <h2><sup>$</sup>99<span>/day</span></h2>
+                <ul>
+                  <li><span>Size:</span>30 ft</li>
+                  <li><span>Capacity:</span>Max persion 3</li>
+                  <li><span>Bed:</span>King Beds</li>
+                  <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
+                  <li><span>View:</span>Sea View</li>
+                </ul>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-2">
+              <div class="rooms__slider">
+                <div class="slider">
+                  <div id="slider1" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-1.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-2.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-3.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-4.jpg');
+                          "
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end slider gap--2">
+                      <button
+                        class="slider__btn--perv slider__btn"
+                        type="button"
+                        data-bs-target="#slider1"
+                        data-bs-slide="prev"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="slider__btn--next slider__btn"
+                        type="button"
+                        data-bs-target="#slider1"
+                        data-bs-slide="next"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-4 order-md-4">
+              <div class="rooms__content">
+                <h3>Premium King Room</h3>
+                <h2><sup>$</sup>99<span>/day</span></h2>
+                <ul>
+                  <li><span>Size:</span>30 ft</li>
+                  <li><span>Capacity:</span>Max persion 3</li>
+                  <li><span>Bed:</span>King Beds</li>
+                  <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
+                  <li><span>View:</span>Sea View</li>
+                </ul>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-3 order-md-3">
+              <div class="rooms__slider">
+                <div class="slider">
+                  <div id="slider2" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-1.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item active">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-2.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-3.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-4.jpg');
+                          "
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end slider gap--2">
+                      <button
+                        class="slider__btn--perv slider__btn"
+                        type="button"
+                        data-bs-target="#slider2"
+                        data-bs-slide="prev"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="slider__btn--next slider__btn"
+                        type="button"
+                        data-bs-target="#slider2"
+                        data-bs-slide="next"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-5 order-md-5">
+              <div class="rooms__content">
+                <h3>Premium King Room</h3>
+                <h2><sup>$</sup>99<span>/day</span></h2>
+                <ul>
+                  <li><span>Size:</span>30 ft</li>
+                  <li><span>Capacity:</span>Max persion 3</li>
+                  <li><span>Bed:</span>King Beds</li>
+                  <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
+                  <li><span>View:</span>Sea View</li>
+                </ul>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-6 order-md-6">
+              <div class="rooms__slider">
+                <div class="slider">
+                  <div id="slider3" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-1.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-2.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item active">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-3.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-4.jpg');
+                          "
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end slider gap--2">
+                      <button
+                        class="slider__btn--perv slider__btn"
+                        type="button"
+                        data-bs-target="#slider3"
+                        data-bs-slide="prev"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="slider__btn--next slider__btn"
+                        type="button"
+                        data-bs-target="#slider3"
+                        data-bs-slide="next"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-8 order-md-8">
+              <div class="rooms__content">
+                <h3>Premium King Room</h3>
+                <h2><sup>$</sup>99<span>/day</span></h2>
+                <ul>
+                  <li><span>Size:</span>30 ft</li>
+                  <li><span>Capacity:</span>Max persion 3</li>
+                  <li><span>Bed:</span>King Beds</li>
+                  <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
+                  <li><span>View:</span>Sea View</li>
+                </ul>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-7 order-md-7">
+              <div class="rooms__slider">
+                <div class="slider">
+                  <div id="slider4" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-1.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-2.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-3.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="carousel-item active">
+                        <div
+                          class="rooms__imgs--box bg--style"
+                          style="
+                            background-image: url('/images/rooms/room-4.jpg');
+                          "
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end slider gap--2">
+                      <button
+                        class="slider__btn--perv slider__btn"
+                        type="button"
+                        data-bs-target="#slider4"
+                        data-bs-slide="prev"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="slider__btn--next slider__btn"
+                        type="button"
+                        data-bs-target="#slider4"
+                        data-bs-slide="next"
+                      >
+                        <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom_pagination">
+            <ul>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li>
+                <a href="#">Next <span>&rarr;</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ** end of rooms section -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logos">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-1.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-2.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-3.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-4.png" alt="" />
+            </div>
+            <div class="col-lg-2 d-lg-block d-sm-none">
+              <img src="/images/logo-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__content">
+          <div class="row justify-content-md-between">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="footer__about">
+                <div class="footer__logo">
+                  <a href="index.html">
+                    <img src="/images/logo.png" alt="logo" />
+                  </a>
+                </div>
+                <h4 class="footer__title--white">(123) 456-78-91096</h4>
+                <p>Ernser Vista Suite 437, NY</p>
+                <p>Info.colorlib@gmail.com</p>
+                <div class="footer__social social__links d-flex gap--2">
+                  <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 offset-md-1 col-md-3 col-sm-6">
+              <div class="footer__links">
+                <div class="footer__link--title">
+                  <h4 class="footer__title--white">Quick Link</h4>
+                </div>
+                <div class="d-flex gap--3">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Room</a></li>
+                    <li><a href="#">Resturants</a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Events</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12">
+              <div class="footer__news-letter">
+                <h4 class="footer__title--white">Subscribe our newlatester</h4>
+                <form action="#">
+                  <input type="text" placeholder="Enter your mail" />
+                  <button class="btn btn-primary" type="submit">
+                    Subscribe
+                  </button>
+                </form>
+                <h5>Find Us:</h5>
+                <ul class="d-flex gap--2 footer__news__links">
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-sharp fa-solid fa-eye"></i
+                    ></a>
+                  </li>
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-regular fa-map"></i
+                    ></a>
+                  </li>
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-light fa-bullseye"></i
+                    ></a>
+                  </li>
+
+                  <li class="footer__news__item">
+                    <a class="footer__news__link" href="#"
+                      ><i class="fa-brands fa-forumbee"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="row justify-content-sm-between">
+            <div class="col-lg-7 col-md-7">
+              <div class="footer__copyright__text">
+                <p>
+                  <span
+                    >Copyright © 2023 All rights reserved | This template is
+                    made with</span
+                  >
+                  <span class="copyright--heart"
+                    ><i class="fa-solid fa-heart"></i
+                  ></span>
+                  By
+                  <span
+                    ><a class="copyright__user" href="#"
+                      >Mohamed Elmahdy</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
+              <ul
+                class="footer__copyrights__links d-flex justify-content-lg-end justify-content-md-end justify-content-center"
+              >
+                <li><a href="#">Terms Of Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

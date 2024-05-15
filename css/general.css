@@ -1,0 +1,210 @@
+@import url('/css/vendor/all.min.css');
+@import url('/css/vendor/bootstrap.min.css');
+
+@font-face {
+  font-family: 'Dm_sans';
+  src: url('../fonts/DM_Sans/DMSans-Regular.ttf'),
+    url('../fonts/DM_Sans/DMSans-Bold.ttf'),
+    url('../fonts/DM_Sans/DMSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('../fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf'),
+    url('../fonts/Barlow_Condensed/BarlowCondensed-Light.ttf'),
+    url('../fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf'),
+    url('../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf'),
+    url('../fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf'),
+    url('../fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf');
+}
+:root {
+  --primary-color: #e9ad28;
+  --white-color: #fff;
+  --black-color: #19191a;
+  --grey-color: #777c81;
+  --primary-dark-color: #d29c24;
+  --primary-light-color: #edbd53;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: Dm_sans;
+  line-height: 1.6;
+  color: var(--grey-color);
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #111111;
+  font-weight: 600;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+p {
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  color: #777c81;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin: 0 0 1.5rem 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.gap--1 {
+  gap: 1rem;
+}
+.gap--2 {
+  gap: 2rem;
+}
+.gap--3 {
+  gap: 3rem;
+}
+
+.active--bread {
+  color: var(--grey-2-color);
+}
+
+/* ** buttons */
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1.4rem 2rem 1.2rem;
+  letter-spacing: 2px;
+  border-radius: 0;
+  transition: all 300ms;
+}
+.btn-primary {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.btn-primary:hover,
+.btn-primary:active {
+  background: var(--primary-dark-color) !important;
+  border-color: var(--primary-dark-color) !important;
+}
+.btn-secondary {
+  background: var(--white-color);
+  color: var(--black-color);
+}
+.btn-secondary:hover,
+.btn-secondary:active {
+  background: var(--black-color) !important;
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+/* ** texts  */
+.section__title {
+  margin-bottom: 5.5rem;
+  text-align: center;
+}
+.subHeading {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.secondary-heading {
+  color: var(--black-color);
+  font-size: 4.4rem;
+}
+
+.text--white {
+  color: var(--white-color);
+}
+
+.text--black {
+  color: var(--black-color);
+}
+.reviews .reviews__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+.label--tag {
+  background: var(--primary-color);
+  display: inline-block;
+  padding: 0.2rem 1.6rem;
+  color: var(--white-color);
+}
+.reviews .reviews__title h5 {
+  color: var(--black-color);
+  font-size: 1.8rem;
+}
+.reviews .reviews__ratings svg {
+  color: var(--primary-light-color);
+}
+.reviews .review__customer {
+  margin-bottom: 4.8rem;
+}
+
+/* ** services items components */
+.services__item {
+  margin-bottom: 4rem;
+}
+.services__item .services__img {
+  margin-bottom: 2.5rem;
+}
+.services__item h4 {
+  color: var(--black-color);
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+}
+/* social */
+.social__links a {
+  color: var(--grey-color);
+}
+
+/* slicder */
+
+.slider__btn {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  transition: all 300ms;
+  background: var(--white-color);
+  color: var(--black-color);
+}
+
+.slider__btn:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+/* !1 backgrounds style */
+.bg--style {
+  background-position: top/center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
